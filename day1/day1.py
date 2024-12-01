@@ -1,6 +1,3 @@
-
-
-
 def part1():
 
     l1 = []
@@ -23,13 +20,11 @@ def part1():
 
 def part2():
     dic = {}
-    l1 = []
     l2 = []
     res = 0
     f = open("day1_input.txt", "r")
     for line in f: 
         tmp = line.split()
-        l1.append(int(tmp[0]))
         dic[int(tmp[0])] = 0
         l2.append(int(tmp[1]))
     for val in l2: 
